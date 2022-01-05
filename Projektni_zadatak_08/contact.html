@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Velebit</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Krešimir Horvat">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0; user-scalable=0;">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.gif">
+</head>
+
+<body>
+    <header>
+
+        <div class="navigacija">
+            <img src="images/velebit-mala.jpg" alt="Velebit" title="Velebit">
+            <nav>
+                <ul>
+                    <li> <a href="index.html" target="_self">Početna</a></li>
+                    <li><a href="news.html">Novosti</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                    <li> <a href="#">O nama</a></li>
+                    <li> <a href="gallery.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1> Kontakt </h1>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=vaganski%20vrh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://123movies-org.net"></a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 400px;
+                        width: 100%;
+                    }
+                </style><a href="https://www.embedgooglemap.net">map embed code</a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 400px;
+                        width: 100%;
+                    }
+                </style>
+            </div>
+        </div>
+        <br>
+
+        <div id=kontakt>
+            <form action="adduser.php" method="post">
+                <label for="firstname"> Ime *</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Vaše ime ... " required>
+                <br>
+                <label for="lastname"> Prezime *</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Vaše prezime ..." required>
+                <br>
+                <label for="email"> E-mail * </label>
+                <input type="email" id="email" name="email" placeholder="Vaš e-mail ..." required>
+                <br>
+                <label for="country"> Zemlja </label>
+                <select id="country" name="country">
+                    <option value=""> Odaberite zemlju </option>
+                    <option value="BE"> Belgium</option>
+                    <option value="HR" selected> Croatia </option>
+                    <option value="LU"> Luxemburg </option>
+                    <option value="HU"> Hungary</option>
+                </select>
+                <br>
+                <label for="message"> Poruka </label>
+                <textarea class="form-control" name="message" id="message" placeholder="Unesite poruku ..." rows="3"></textarea>
+                <br>
+                <input type="submit" value="Pošalji">
+
+            </form>
+        </div>
+
+
+        <br>
+    </main>
+    <footer>
+        <p>
+            Copyright &copy; 2021 Krešimir Horvat &amp; Vila Velebita. All rights reserved.
+            <a href="https://github.com/khorva1?tab=repositories">
+                <img src="images/github.png" title="Github" alt="Github" width="25"> </a>
+        </p>
+    </footer>
+</body>
+
+</html>
