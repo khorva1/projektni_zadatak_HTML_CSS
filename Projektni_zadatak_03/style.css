@@ -1,0 +1,87 @@
+body, html {
+        font-family:  Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        font-size: 16px;
+        background-color: aliceblue ; 
+        color:rgb(2, 14, 24);
+}
+header {
+        display: block;
+        width:100% ;
+        margin: 0;
+        padding:0 ; }
+header img {
+        margin: 0;
+        padding:0 ; 
+        width:100% ;
+}
+.navigacija{
+     margin: 0;
+     padding:0 ; 
+}
+.navigacija img{
+        margin: 0;
+        padding:0 ; 
+} 
+ul{
+     list-style-type: none; 
+     background-color: rgb(142, 199, 233) ;
+     margin: 0;
+     padding:0 ; 
+     overflow: hidden ;  
+}
+li {
+        float: left ;     
+}
+li a {
+        display: block;
+        text-align: center;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-size: 120% ;
+        color:rgb(2, 14, 24);
+}
+li a:hover {
+        background-color: rgb(133, 177, 216) ;
+        color:rgb(2, 14, 24);
+}
+a:hover {
+        color: #8b3727;
+}
+h1, h2 {
+        margin:  1em;
+        font-size: 2em;        
+}
+h2 {
+        font-size: 1.5em; 
+        color: #27318b;    
+}
+p {
+        margin: 1em;
+        line-height: 1.5em;
+        letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	clear: both;
+        }
+figure {
+        float: left;
+        width: 45%;
+        padding: 0.5em;
+        margin: 0.5em;
+        border: 1px solid black
+}
+figure img {
+        width:100%
+}
+figcaption { 
+        font-size:  90% ;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+}
